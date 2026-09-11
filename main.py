@@ -15,7 +15,7 @@ bot=Bot(token=os.getenv("TOKEN"))
 
 @dp.message(CommandStart())
 async def starthandler(message:Message):
-      await message.answer("Salom botimizga hush kelibsiz")
+      await message.answer("Salom botimizga hush kelibsiz hurmatli foydalanuvchi")
 
 
 async def main():
